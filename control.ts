@@ -8,7 +8,9 @@ window.onload = () => {
         // Should fetch from the repository and save to local
         const updateConfig = YAML.parse("");
         chrome.storage.sync.set({
-            color: "#3aa757"
+            username: "golink4everyone",
+            repository: "global-config",
+            filename: "config.yaml"
         }, () => {
             console.log("The color is green.");
         });
