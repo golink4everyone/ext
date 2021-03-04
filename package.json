@@ -1,0 +1,25 @@
+{
+  "name": "link_converter_ext",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "yaml": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "0.0.133"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/golink4everyone/ext.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/golink4everyone/ext/issues"
+  },
+  "homepage": "https://github.com/golink4everyone/ext#readme"
+}
