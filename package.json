@@ -6,7 +6,9 @@
     "yaml": "^1.10.0"
   },
   "devDependencies": {
-    "@types/chrome": "0.0.133"
+    "@octokit/rest": "^18.3.2",
+    "@types/chrome": "0.0.133",
+    "typescript": "^2.9.2"
   },
   "scripts": {
     "build": "tsc",
